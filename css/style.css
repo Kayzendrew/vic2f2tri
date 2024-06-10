@@ -1,0 +1,14 @@
+@import url(reset.css); 
+@import url(header.css);
+.pagina{
+    color: blue;
+    font-size: 300px;
+    background-color: aliceblue;
+}
+@media screen and (max-width: 300px){
+    
+}   
+
+body{
+    background-color: green;
+}
