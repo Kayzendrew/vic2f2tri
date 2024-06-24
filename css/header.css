@@ -15,3 +15,11 @@
     background-position: center;
     background-repeat: no-repeat;    
 }
+
+.menu-lista{
+    display: none;
+}
+
+#setor-menu :checked ~ .menu-lista{
+    display: block;
+}
