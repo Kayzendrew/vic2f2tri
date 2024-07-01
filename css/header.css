@@ -18,15 +18,20 @@
 
 .menu-lista{
     display: none;
+    position: absolute;
+    width: 60vw;
+    text-transform: uppercase;
 }
 
 .seletor-menu:checked ~ .menu-lista{
     display: block;
+    /*Ele poẽm o display block se acaso estiver com um check*/
 }
 
 .menu-lista-item, .menu-lista-titulo {
     background-color: white;
     padding: 1em;
+    /*Ele poẽm o background color e o padding no menu-lista e menu-item*/
 }
 
 .menu-lista-titulo{
