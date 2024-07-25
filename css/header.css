@@ -28,6 +28,11 @@
     /*Ele poẽm o display block se acaso estiver com um check*/
 }
 
+.seletor-menu{
+    display: none;
+}
+
+
 .menu-lista-item, .menu-lista-titulo {
     background-color: white;
     padding: 1em;
@@ -36,6 +41,7 @@
 
 .menu-lista-titulo{
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .menu-lista-link{

@@ -10,7 +10,8 @@
 }   
 
 body{
-    background-color: #ebecce;
+    background-color: var(--cor-de-fundo);
+    font-family: "poppins", sans-serif;
 }
 
 :root{
