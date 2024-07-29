@@ -23,16 +23,6 @@
     text-transform: uppercase;
 }
 
-.seletor-menu:checked ~ .menu-lista{
-    display: block;
-    /*Ele poẽm o display block se acaso estiver com um check*/
-}
-
-.seletor-menu{
-    display: none;
-}
-
-
 .menu-lista-item, .menu-lista-titulo {
     background-color: white;
     padding: 1em;
@@ -49,4 +39,13 @@
     --webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;
+}
+
+.seletor-menu:checked ~ .menu-lista{
+    display: block;
+    /*Ele poẽm o display block se acaso estiver com um check*/
+}
+
+.seletor-menu{
+    display: none;
 }
