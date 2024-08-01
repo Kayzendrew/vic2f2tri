@@ -1,0 +1,51 @@
+.menu-hamburguer{
+    background-image: url(../img/Menu.svg);
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.menu-hamburguer{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;    
+}
+
+.menu-lista{
+    display: none;
+    position: absolute;
+    width: 60vw;
+    text-transform: uppercase;
+}
+
+.menu-lista-item, .menu-lista-titulo {
+    background-color: white;
+    padding: 1em;
+    /*Ele poẽm o background color e o padding no menu-lista e menu-item*/
+}
+
+.menu-lista-titulo{
+    color: var(--laranja);
+    font-weight: 700;
+}
+
+.menu-lista-link{
+    background: var(--azul-degrade);
+    --webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.seletor-menu:checked ~ .menu-lista{
+    display: block;
+    /*Ele poẽm o display block se acaso estiver com um check*/
+}
+
+.seletor-menu{
+    display: none;
+}
