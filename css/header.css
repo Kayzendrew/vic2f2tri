@@ -36,6 +36,7 @@
 
 .menu-lista-link{
     background: var(--azul-degrade);
+    --webkit-background-lip: 
     --webkit-text-fill-color: transparent;
     background-clip: text;
     text-transform: uppercase;

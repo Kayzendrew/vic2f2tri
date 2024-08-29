@@ -3,13 +3,9 @@
 @import url(banner.css);
 @import url(carrosel.css);
 
-@media screen and (max-width: 300px){
-    
-}   
-
 body{
     background-color: var(--cor-de-fundo);
-    font-family: "poppins", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 :root{

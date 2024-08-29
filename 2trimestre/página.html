@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -7,9 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <title>Programação - Segundo Trabalho</title>
 </head>
 
@@ -38,39 +40,56 @@
     </header>
     <section class="banner">
         <h2 class="banner-titulo">Já sabe por onde começar?</h2>
-            <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento</p>
-            <input class="banner-pesquisa" type="search" placeholder="qual sera sua proxima leitura?">
+        <p class="banner-texto">Encontre em nossa estante o que precisa para seu desenvolvimento</p>
+        <input class="banner-pesquisa" type="search" placeholder="qual sera sua proxima leitura?">
     </section>
     <section class="carrosel">
-            <h2 class="carrosel-titulo"> Novos Lançamentos</h2>
-            <div class="swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide"><img src="../img/ApacheKafka.png" alt=""></div>
-                    <div class="swiper-slide"><img src="../img/Liderança.png" alt=""></div>
-                    <div class="swiper-slide"><img src="../img/Javascript.png" alt=""></div>
-                    <div class="swiper-slide"><img src="../img/Guia Front-end.png" alt=""></div>
-                    <div class="swiper-slide"><img src="../img/Portugol.png" alt=""></div>
-                    <div class="swiper-slide"><img src="../img/Nodejs.png" alt=""></div>
-                </div>
-                <div class="swiper-pagination"></div>
-
-                <div class="swiper-button-prev"></div>
-    
-                <div class="swiper-button-next"></div>
-                
-                <div class="swiper-scrollbar"></div>
+        <h2 class="carrosel-titulo"> Novos Lançamentos</h2>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="../img/ApacheKafka.png" alt=""></div>
+                <div class="swiper-slide"><img src="../img/Liderança.png" alt=""></div>
+                <div class="swiper-slide"><img src="../img/Javascript.png" alt=""></div>
+                <div class="swiper-slide"><img src="../img/Guia Front-end.png" alt=""></div>
+                <div class="swiper-slide"><img src="../img/Portugol.png" alt=""></div>
+                <div class="swiper-slide"><img src="../img/Nodejs.png" alt=""></div>
             </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <div class="card">
+        <div class="card-descricao">
+            <div class="descricao">
+                <h3 class="descricao-titulo">Talvez você também tem interesse por...</h3>
+                <h2 class="decricao-titulo-livro">Angular 11</h2>
+                <p class="descricao-texto">Contruindo uma aplicação integrada com a plataforma google</p>
+            </div>
+            <img src="../img/Angular.png" alt="Imagem do angular">
+        </div>
+        <div class="card-botoes">
+                <ul class="botoes">
+                    <li class="botoes-itens"> <img src="../img/Favoritos.svg" alt=""></li>
+                    <li class="botoes-itens"><img src="../img/Compras.svg" alt=""></li>
+                </ul>
+                <a href="#" class="botoes-ancora">saiba mais</a>
+        </div>
+        </div>
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-        const swiper = new Swiper('.swiper', {
+        const swiper = new Swiper('.    swiper', {
             spaceBetween: 10,
             slidesPerView: 3,
             pagination: {
-                el: 'swiper-pagination',
-                type: 'Bullets',
+                el: '.swiper-pagination',
+                type: 'bullets',
             }
-});
+        });
     </script>
 </body>
 
