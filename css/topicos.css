@@ -30,3 +30,12 @@
     font-size: 14px;
     font-weight: 700;
 }
+
+hr{
+    margin: 0;
+}
+
+.rodape{
+    background-color: var(--branco);
+    padding: 1em;
+}
